@@ -1,0 +1,749 @@
+body {
+    font-family: 'Montserrat';
+    color: #000;
+    font-size: 14px;
+}
+
+/*HEADER*/
+
+.header {
+    margin-top: 50px;
+}
+
+.row_header {
+    align-items: center;
+}
+
+.header_button {
+    border: 0;
+    background-color: transparent;
+    font-size: 26px;
+    float: left;
+}
+
+.header_button:hover {
+    color: brown;
+}
+
+.header_button:active {
+    color: #1b9393;
+}
+
+
+.header_link {
+    font-weight: 500;
+    letter-spacing: .03em;
+    color: #212121;
+    text-decoration: none;
+    margin-left: 45px;
+    transition: color .2s linear;
+}
+
+.header_link:first-child {
+    margin-left: 0;
+}
+
+.header_link:active {
+    color: #13b2b2;
+}
+
+.header_nav img {
+    margin: 0 45px 0 90px;
+}
+
+.header_logo {
+    float: right;
+}
+
+.header_logo img {
+    cursor: pointer;
+}
+
+.header_product {
+    margin-right: 10px;
+}
+
+/*BOOTS*/
+
+.boots {
+    margin-top: 130px;
+}
+
+.boots_text h2 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: .02em;
+}
+
+.boots_text h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.boots_button {
+    background: #D7B399;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .03em;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    transition: background .25s linear;
+}
+
+.boots_button:hover {
+    background: #a89587;
+}
+
+.boots_button:active {
+    background-color: #dba680;
+}
+
+.boots_photo img {
+    max-width: 100%;
+}
+
+.boots_slider {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 70px;
+}
+
+.boots_item {
+    display: block;
+    width: 40px;
+    height: 7px;
+    background: #CECECE;
+    margin-left: 15px;
+}
+
+.boots_item:first-child {
+    margin-left: 0;
+}
+
+.boots_item:nth-child(2) {
+    background-color: #D7B399;
+}
+
+
+/*FREE*/
+
+.free {
+    background: #212121;
+    color: #fff;
+    text-align: center;
+}
+
+.free-title {
+    padding-top: 80px;
+    margin-bottom: 7px;
+}
+
+.free_title {
+    display: inline;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.free_contitle {
+    font-family: 'Monsterrat';
+    font-weight: 400;
+}
+
+.free_text {
+    font-size: 21px;
+    font-weight: 300;
+    padding-bottom: 53px;
+}
+
+/*COLLECTION*/
+
+.collection {
+    padding-top: 60px;
+    background-color: #F9F6F1;
+}
+
+.collection_title {
+    display: inline;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+.collection_contitle {
+    font-family: 'Roboto';
+    font-weight: 300;
+    letter-spacing: .03em;
+}
+
+.collection_product {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 25px 0 40px;
+}
+
+.collection_button {
+    width: 80px;
+    height: 30px;
+    background: #D7B399;
+    border: 0;
+    margin-bottom: 50px;
+}
+
+.collection_button:hover {
+    background: #a78974;
+}
+
+.collection_button:active {
+    background: #fac9a6;
+}
+
+.collection_arrow {
+    width: 20px;
+    max-height: 100%;
+    fill: #fff;
+}
+
+.collection_photo {
+    margin-top: 20px;
+}
+
+.collection_photo img {
+    max-width: 100%;
+}
+
+
+/*SHIRT*/
+
+.shirt_inner {
+    padding: 0 15px;
+    margin-bottom: 150px;
+}
+
+.shirt_item {
+    position: relative;
+
+}
+
+.shirt_item img {
+    width: 100%;
+}
+
+.shirt_item p {
+    font-weight: 300;
+    font-size: 21px;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 80%;
+    left: 14%;
+    z-index: 2;
+}
+
+.shit_col {
+    padding: 0;
+}
+
+
+/*MODELS*/
+
+.models_title {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #212121;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.models_item {
+    width: 255px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+}
+
+
+.models_item img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+
+.models_about {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 25px 0 15px;
+}
+
+.models_text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #D7B399;
+    height: 0;
+}
+
+.models_knopka {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.models_button {
+    width: 220px;
+    height: 55px;
+    border: 0;
+    background: #D7B399;
+    color: #fff;
+    padding-top: 7px;
+}
+
+.models_button:hover {
+    background: #a78974;
+}
+
+.models_button:active {
+    background: #fac9a6;
+}
+
+.models_button h1 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    display: inline;
+    margin: 0;
+}
+
+.models_arrow {
+    padding-bottom: 2px;
+}
+
+/*BORDER*/
+
+.models_border {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #D7B399;
+    position: absolute;
+}
+
+.border1 {
+    top: 0;
+    left: 0;
+}
+
+.border2 {
+    top: 0;
+    right: 0;
+}
+
+.border3 {
+    bottom: 0;
+    left: 0;
+}
+
+.border4 {
+    bottom: 0;
+    right: 0;
+}
+
+.border_1 {
+    transform: rotate(90deg);
+    top: 11px;
+    left: -11px;
+}
+.border_2 {
+    transform: rotate(90deg);
+    top: 11px;
+    right: -11px;
+}
+.border_3 {
+    transform: rotate(90deg);
+    bottom: 11px;
+    left: -11px;
+}
+.border_4 {
+    transform: rotate(90deg);
+    bottom: 11px;
+    right: -11px;
+}
+
+
+/*GIFT*/
+
+.gift {
+    background-color: #212121;
+    margin-bottom: 150px;
+}
+
+.gift_row {
+    align-items: center;
+    height: 180px;
+}
+
+.gift_title {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: .02em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.gift_forms {
+    background-color: #F9F6F1;
+    height: 40px;
+    width: 255px;
+    color: #8D8D8D;
+    padding-left: 20px;
+}
+
+.gift_button {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #D7B399;
+    border: 0;
+    width: 180px;
+    height: 40px;
+    color: #fff;
+}
+
+.gift_button:hover {
+    background: #a78974;
+}
+
+.gift_button:active {
+    background: #fac9a6;
+}
+
+
+/*
+    .gift_col {
+        padding: 0;
+        text-align: center;
+    }
+*/
+
+
+/*FOOTER*/
+
+.footer {
+    background-color: #212121;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.footer_item {
+    margin-top: -10px;
+}
+
+.footer_right {
+/*    margin-right: 80px;*/
+}
+
+.footer_item p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 25px;
+    padding-right: 180px;
+}
+
+.footer_item1 p {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.footer_ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer_li {
+    margin-bottom: 10px;
+
+}
+
+.footer_li a {
+    color: #CBCFD4;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer_li a:hover {
+    color: #959da7;
+}
+
+.footer_li a:active {
+    color: #fff;
+}
+
+.footer_li i {
+    color: #D7B399;
+    margin-right: 5px;
+}
+
+.footer_li i:hover {
+    color: #959da7;
+}
+
+.footer_li i:active {
+    color: #fff;
+}
+
+/*LAW*/
+
+.law_row {
+    font-size: 14px;
+    color: #212121;
+    margin: 30px 0 20px;
+    justify-content: space-between;
+}
+
+.law p {
+    margin-bottom: 0;
+}
+
+.law_p {
+    text-align: right;
+}
+
+/*MEDIA*/
+
+@media (max-width: 1199px) {
+    .header_nav {
+    text-align: center;
+    }
+
+    .shirt_item p {
+        font-size: 18px;
+    }
+
+    .footer_item p {
+        padding-right: 120px;
+    }
+}
+
+@media (max-width: 991px) {
+    .shirt_item p {
+        font-size: 13px;
+    }
+
+    .gift_button {
+        width: 150px;
+    }
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer_item p {
+        padding-right: 0px;
+    }
+
+    .footer_right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_col {
+        width: 25%;
+        margin-top: 15px;
+    }
+
+    .footer_item1 {
+        padding-left: 45px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .header_logo {
+        display: none;
+    }
+
+    .header_nav {
+    text-align: right;
+    }
+
+    .header_nav img {
+        margin: 0;
+    }
+
+    .boots {
+        margin-top: 20px;
+    }
+
+    .boots_text {
+        text-align: center;
+    }
+
+    .collection_product {
+        margin: 15px 0 20px;
+    }
+
+    .collection_woman {
+        margin-top: 30px;
+    }
+
+    .collection_button {
+        margin-bottom: 0;
+    }
+
+    .shirt {
+        margin-top: 30px;
+    }
+
+    .shirt_inner {
+        margin-bottom: 60px;
+    }
+
+    .shit_col {
+        max-width: 50%;
+    }
+
+    .shirt_item p {
+        font-size: 18px;
+    }
+
+    .shirt_none {
+        display: none;
+    }
+
+    .models_title {
+        margin-bottom: 50px;
+    }
+
+    .models_col {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .models_knopka {
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+
+    .gift {
+        margin-bottom: 60px;
+    }
+
+    .gift_row {
+        align-items: flex-start;
+    }
+
+    .gift_title {
+        margin-top: 20px;
+    }
+
+    .gift__form {
+        margin-top: 0px;
+    }
+
+    .gift_col {
+        text-align: center;
+    }
+
+    .gift_button {
+        margin-top: 20px;
+        width: 180px;
+    }
+
+    .footer_col {
+        width: 25%;
+    }
+
+    .footer_item1 {
+        padding-left: 0;
+    }
+
+    .law_col {
+        width: 100%;
+    }
+
+    .law_p1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 551px) {
+    .shirt_item p {
+        font-size: 15px;
+    }
+
+    .gift_title {
+        font-size: 24px;
+    }
+
+    .footer_col {
+        width: 50%;
+    }
+
+    .footer_item1 {
+        padding-left: 40px;
+    }
+
+    .footer_top {
+        margin-top: 25px;
+    }
+
+}
+
+
+@media (max-width: 405px) {
+    .shirt_item p {
+        font-size: 12px;
+    }
+
+    .models_title {
+        font-size: 26px;
+    }
+
+    .models_col1 {
+        width: 100%;
+    }
+
+    .models_col2 {
+        display: none;
+    }
+
+    .models_item {
+        margin: 0 auto;
+    }
+
+    .gift_title {
+        font-size: 20px;
+    }
+
+    .footer_col {
+        width: 50%;
+    }
+
+    .footer_item1 {
+        padding-left: 0;
+    }
+}
